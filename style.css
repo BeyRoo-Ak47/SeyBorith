@@ -1,0 +1,226 @@
+@font-face{
+    src: url(BebasNeue-Regular.ttf);
+    font-family: Bebas;
+}
+@font-face{
+    src: url(NotoSerif-Italic-VariableFont_wdth\,wght.ttf);
+    font-family: Noto;
+}
+body{
+    --bs-body-bg:rgb(255, 255, 255);
+}
+.navbar-brand{
+    font-size: 90px;
+    letter-spacing: 2px;
+    font-family: Noto;
+}
+.navbar-brand h3{
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke: 1px black;
+    font-size: 30px;
+    letter-spacing: 2px;
+    font-family: Noto;
+}
+.navbar img{
+    width:90px;
+    margin-right: 10px;
+}
+.nav-link{
+    letter-spacing: 1px;
+    font-family: Bebas;
+    text-shadow: 2px 2px 9px rgba(0, 0, 0, 0.5);
+}
+.nav-link:hover{
+    letter-spacing: 1px;
+    font-family: Bebas;
+    text-shadow: 2px 2px 9px rgb(237, 105, 105);
+}
+li{
+    font-size: 23px;
+    padding: 10px;
+}
+#image img{
+    border-radius: 50%  ;
+    max-width: 80%;
+    height: auto;
+    box-shadow: 4px 4px 20px rgb(88, 88, 88);
+}
+#image img:hover{
+    border-radius: 50% ;
+    max-width: 80%;
+    height: auto;
+    box-shadow: 4px 4px 20px rgb(50, 50, 50);
+}
+#con1{
+    color: rgb(40, 40, 40);
+    margin-top: 30px;
+}
+#intro{
+    margin-top: 60px;
+}
+.bt{
+    box-shadow: 2px 2px 9px rgb(138, 139, 139);
+    font-size: 20px;
+    font-family: Bebas;
+    margin-bottom: 20px;
+    border-radius: 20px 10px 20px 10px;
+    width: 200px;
+    background-image: linear-gradient(to top,rgb(124, 124, 124),rgb(255, 255, 255),rgb(124, 124, 124));
+    height: 40px;
+}
+.bt:hover{
+    box-shadow: 2px 2px 9px rgb(21, 21, 21);
+    border-radius: 20px 10px 20px 10px;
+    width: 200px;
+    height: 40px;
+    background-color: rgb(204, 208, 208);
+}
+.row{
+    border:0px solid black;
+
+}
+.row h1{
+    font-size: 60px;
+    letter-spacing: 2px;
+    font-family: Bebas;
+    margin-bottom: 25px;
+    font-weight: 900;
+}
+.row h2{
+    margin-bottom: 25px;
+    font-weight: 700;
+    opacity: 0.8;
+}
+.row p{
+    line-height: 2;
+}
+.skill #html{
+    width: 61px;
+}
+.skill #css{
+    width: 90px;
+}
+.skill .cs{
+    margin-top: 3px;
+    width: 90px;
+}
+.skill .sql{
+    margin-top: 3px;
+    width: 70px;
+    height: 50px;
+}
+.skill .java{
+    margin-top: 3px;
+    width: 90px;
+    height: 50px;
+}
+
+.icon{
+    background-color: rgb(85, 85, 85);
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+    border: none;
+}
+.icon:hover{
+    background-color: rgb(203, 203, 203);
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+    border: none;
+}
+.icon img{
+    width: 40px;
+}
+#facebook img{
+    width: 30px;
+}
+.school{
+    background-color: aqua;
+    border-radius: 5px;
+}
+.name{
+    background-color: blue;
+    border-radius: 5px;
+}
+.field{
+    background-color: yellow;
+    border-radius: 5px;
+}
+#abtMe{
+    margin-top: 50px;
+}
+.abtn{
+    display: flex;
+}
+.abtn .btn{
+    row-gap: 10px;
+}
+.skill{
+    width: 100%;
+    height: auto;
+}
+.rowL{
+    display: flex;
+}
+.row .web {
+    margin-right: 40px;
+    font-size: 0;
+}
+.row .MB {
+    font-size: 0;
+}
+.row button{
+    display: inline-block;
+}
+.web #btn1{
+    background-color: aqua;
+}
+.web #btn2{
+    background-color: aqua;
+}
+.web #btn3{
+    background-color: aqua;
+}
+.MB #btn4{
+    background-color: rgb(90, 90, 255);
+}
+.MB #btn5{
+    background-color: rgb(10, 255, 39);
+}
+.MB #btn6{
+    background-color: rgb(255, 80, 214);
+}
+.University , .date{
+    font-weight: 800;  
+}
+.achieve{
+    font-style: italic;
+}
+.desc{
+    font-size: 15px;
+}
+.form {
+    font-family: Noto;
+}
+.form input{
+    width: 100%;
+    height: 50px;
+    margin: 10px;
+}
+.form textarea{
+    width: 100%;
+}
+.form input:hover{
+    width: 100%;
+    height: 50px;
+    margin: 10px;
+    box-shadow: 3px 3px 20px cyan;
+}
+.form button{
+    border-radius: 10px;
+    font-family: Bebas;
+    width: 80px;
+    height: 50px;
+    background-color: aquamarine;
+}
