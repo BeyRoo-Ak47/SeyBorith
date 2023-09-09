@@ -224,3 +224,6 @@ li{
     height: 50px;
     background-color: aquamarine;
 }
+iframe{
+    width:100%;
+}
