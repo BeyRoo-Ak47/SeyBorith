@@ -206,7 +206,6 @@ li{
 .form input{
     width: 100%;
     height: 50px;
-    margin: 10px;
 }
 .form textarea{
     width: 100%;
@@ -214,7 +213,6 @@ li{
 .form input:hover{
     width: 100%;
     height: 50px;
-    margin: 10px;
     box-shadow: 3px 3px 20px cyan;
 }
 .form button{
@@ -225,5 +223,11 @@ li{
     background-color: aquamarine;
 }
 iframe{
-    width:10%;
+    width: 100%;
+}
+.slide{
+    width: 90%;
+}
+.slide{
+    width: 100%;
 }
