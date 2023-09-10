@@ -222,7 +222,7 @@ li{
     height: 50px;
     background-color: aquamarine;
 }
-iframe{
+.map iframe{
     width: 100%;
 }
 .slide{
